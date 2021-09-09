@@ -53,5 +53,11 @@ focused on work and success. I am looking for an interesting job in which I can 
     })
   }
   ___
-  
+## Education:
+Higher Professional Technical College # 27 of the city of Zaporizhia  08/2003 - 06/2006
+___
 
+  ## Courses:
+  * Javascript full course. (Udemy Ivan Pietriczenko).
+  * Angular for beginners (Udemy Vladilen Minin).
+___
