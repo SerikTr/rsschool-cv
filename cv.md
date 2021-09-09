@@ -14,3 +14,12 @@ I have extensive knowledge in front-end technologies. I am disciplined, conscien
 focused on work and success. I am looking for an interesting job in which I can apply
  my own skills and gain new experience.
  ___
+ ## Skills and Proficiency:
+ * HTML, CSS/SASS, Bootstrap 4
+ * JavaScript (ES6)
+ * Angular 9
+ * Typescript - RxJS, AJAX 
+* RESTful API, HTTP
+ * GIT
+ ---
+
