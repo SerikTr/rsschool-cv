@@ -6,8 +6,8 @@ ___
 ## My contact Info:
 * __Phone:__ ___+48 792 083 353___
 * __E-mail:__ ___seriktr@gmail.com___
-* __GitHub:__ ___https://github.com/SerikTr___
-* __Linkedin:__ ___https://www.linkedin.com/in/sergii-troian-20639113a/___
+* [GitHub](https://github.com/SerikTr)
+* [LinkedIn](https://www.linkedin.com/in/sergii-troian-20639113a/)
 ___
 ## About Me:
 I have extensive knowledge in front-end technologies. I am disciplined, conscientious,
@@ -19,8 +19,9 @@ focused on work and success. I am looking for an interesting job in which I can 
  * JavaScript (ES6)
  * Angular 9
  * Typescript - RxJS, AJAX 
-* RESTful API, HTTP
+ * RESTful API, HTTP
  * GIT
+ * [Portfolio](https://portfolio-sergey-troian.web.app/)
  ---
  ## Code example:
  The purpose of the task was to find a match of the channel names from the resulting JSON file using a search string. And display it on the page.
@@ -61,3 +62,8 @@ ___
   * Javascript full course. (Udemy Ivan Pietriczenko).
   * Angular for beginners (Udemy Vladilen Minin).
 ___
+## Languages:
+* English A2
+* Polish C1
+* Russian native
+* Ukrainian - Intermediate
