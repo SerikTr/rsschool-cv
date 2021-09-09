@@ -22,4 +22,36 @@ focused on work and success. I am looking for an interesting job in which I can 
 * RESTful API, HTTP
  * GIT
  ---
+ ## Code example:
+ The purpose of the task was to find a match of the channel names from the resulting JSON file using a search string. And display it on the page.
+ * [Project: JS Channels.](https://channel-list-87d07.web.app/)
+ * [More code on GitHub...](https://github.com/SerikTr/recruitment-task/blob/main/static/js/search.js)
+ >  function searchChannel() {
+    searchBar.addEventListener('input', (e) => {
+      const searchString = e.target.value.toUpperCase().trim()
+      const channelsContainer = document.querySelector('.wrapper__content')
+      const channels = channelsContainer.getElementsByClassName('inner__content')
+      const channelList = document.getElementById('channelList')
+      const array = []
+      for (let i = 0; i < channels.length; i++) {
+        let title = channels[i].querySelector('.title__content')
+        if (title.innerText.toUpperCase().indexOf(searchString) > -1) {
+          channels[i].style.display = ""
+          let str = title.innerText
+          title.innerHTML = insertMark(str, title.innerText.toUpperCase().indexOf(searchString), searchString.length)
+          if (searchString.length > 0) {
+            array.push(title.innerText)
+          }
+        } else {
+          channels[i].style.display = "none"
+        }
+      }
+      let html = array.map(title =>
+        `<option>${title}</option>`
+      ).join('')
+      channelList.innerHTML = html
+    })
+  }
+  ___
+  
 
