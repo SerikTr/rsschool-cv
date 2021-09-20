@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	body {
+		background-color: #f7eee463;
+	}
+	.container {
+		max-width: 540px;
+		width: 100%;
+		margin: 0 auto;
+		align-items: center;
+		border: 2px black solid;
+		background-color: #faebd763;
+		border-radius: 6px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+	ul {
+		list-style-type: none;
+	}
+
+	h2 {
+		background-color: blue;
+		color: white;
+		padding: 3px 0 3px 10px;
+		border-radius: 6px;
+	}
+
+	.main {
+		padding: 0 20px 20px 20px;
+	}
+
+	figure, img {
+		width: 100%;
+    	height: auto;
+		max-width: 300px;
+		border-radius: 50%;
+		margin: 0 auto;
+		padding: 5px;
+	}
+
+	.header, .left__side, .right__side {
+		padding: 30px 30px 0 30px;
+	}
+	.contacts__wrapper {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.contacts__list, .education__list{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	li, .skills__item, .about__paragraph {
+		line-height: 28px;
+		padding-left: 5px;
+	}
+
+	.code {
+		padding: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: grey;
+		color: white;
+		border-radius: 6px;
+	}
+
+	.footer {
+		background-color: grey;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.img__github, .img__rsschool{
+		width: 50px;
+	}
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: #f7eee463;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.container {
+		max-width: 540px;
+		width: 100%;
+		margin: 0 auto;
+		align-items: center;
+		border: 2px black solid;
+		background-color: #faebd763;
+		border-radius: 6px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+	ul {
+		list-style-type: none;
+	}
+
+	h2 {
+		background-color: blue;
+		color: white;
+		padding: 3px 0 3px 10px;
+		border-radius: 6px;
+	}
+
+	.main {
+		padding: 0 20px 20px 20px;
+	}
+
+	figure, img {
+		width: 100%;
+    	height: auto;
+		max-width: 300px;
+		border-radius: 50%;
+		margin: 0 auto;
+		padding: 5px;
+	}
+
+	.header, .left__side, .right__side {
+		padding: 30px 30px 0 30px;
+	}
+
+	.right__side {
+		max-width: 550px;
+	}
+	.contacts__wrapper {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.contacts__list, .education__list{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.about__paragraph, .skills-list, .languages__list {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	li, .skills__item, .about__paragraph {
+		line-height: 28px;
+		padding-left: 5px;
+	}
+
+	.code {
+		padding: 15px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 6px;
+	}
+
+	.footer {
+		background-color: grey;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.img__github, .img__rsschool{
+		width: 50px;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	figure, img {
+		max-width: 400px;
+		border-radius: 16px;
+		margin: 0;
+  }
+
+  .user__name {
+	  margin: 0 auto;
+  }
+
+  .heading-user__name {
+	  font-size: 62px;
+  }
+
+  h2 {
+	  font-size: 32px;
+  }
+
+  .description {
+	  display: flex;
+  }
+  .left__side {
+	  min-width: 365px;
+	  display: flex;
+     flex-direction: column;
+  }
+}
